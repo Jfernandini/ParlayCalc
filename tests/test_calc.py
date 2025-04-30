@@ -1,6 +1,6 @@
 import pytest
 
-from Calculator import LayMe
+from calculator import LayMe
 
 def test_positive_odds():
     result = LayMe(100, [150, 200])
